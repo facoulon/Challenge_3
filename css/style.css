@@ -1,20 +1,35 @@
 header, main, footer {
   width: 1000px;
-  margin: 0 auto;
+  margin: auto;
   padding: 0 140px;
 }
 
 header {
   background-color: #eeeeee;
+  margin-bottom: 6em;
+
 }
 
 h1 {
   color: #2b3f48;
   display: inline;
   width: 40%;
+  font-size: 25px;
+  padding-right: 100px;
+
+
 }
 
 li {
   display: inline;
-  width: 50%
+
+}
+nav
+{
+    display: inline;
+}
+ul
+{
+    display: inline;
+
 }
