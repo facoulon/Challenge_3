@@ -1,0 +1,20 @@
+header, main, footer {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 140px;
+}
+
+header {
+  background-color: #eeeeee;
+}
+
+h1 {
+  color: #2b3f48;
+  display: inline;
+  width: 40%;
+}
+
+li {
+  display: inline;
+  width: 50%
+}
