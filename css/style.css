@@ -1,14 +1,18 @@
-header , footer, section {
+nav , footer, main {
   width: 1000px;
   margin: auto;
-  padding: 0 140px;
   font-family: 'News Cycle', sans-serif;
+}
+main {
+    width: 100%;
 }
 
 header {
   background-color: #eeeeee;
   padding-top: 35px;
   padding-bottom: 40px;
+  vertical-align: middle;
+  text-align: center;
 
 }
 
@@ -18,7 +22,7 @@ h1 {
   width: 30%;
   font-size: 35px;
   padding-right: 150px;
-  vertical-align: middle;
+  font-weight: bold;
 
 }
 
@@ -30,6 +34,7 @@ li {
 nav
 {
     display: inline;
+    text-align: center;
 }
 
 ul
@@ -56,4 +61,73 @@ section:first-child {
    background-image: url("../images/banner.png");
    background-size: cover;
    height: 850px
+}
+img {
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+
+
+}
+article {
+    text-align: center;
+
+}
+.article1, .article3 {
+    color: white;
+
+}
+article h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+article h3 {
+    font-size: 20px;
+    margin-bottom: 3em;
+    font-weight: bold;
+}
+article p{
+    font-size: 15px;
+    line-height: 2em;
+    margin-bottom: 6em;
+}
+article a {
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1em 3.5em;
+}
+.article1 a {
+    background-color: #2b3f48;
+    color: white;
+}
+.article2{
+    padding-top: 100px;
+    color: #2b3f48;
+
+}
+.article2 a {
+    background-color: #27ae61;
+    color: white;
+}
+.contain1, .contain2 {
+    height: 600px
+}
+.contain1 {
+    background-color: #eeeeee;
+}
+.contain2 {
+    background-color: #27ae61;
+}
+.contain2 h2 {
+    padding-top: 100px;
+}
+.article3 a {
+    background-color: white;
+    color: #27ae61;
 }
