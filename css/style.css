@@ -130,9 +130,54 @@ article a {
   color: #27ae61;
 }
 
+div {
+    display: block;
+    margin: 1em;
+    color: #27ae61;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+form label {
+    width: 110px;
+}
+
+
+input {
+    background-color: #27ae61;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    width: 30%;
+}
+form {
+    padding: 2em 15%;
+}
+textarea {
+    background-color: #27ae61;
+    color: white;
+    font-weight: bold;
+    width: 80%;
+    height: 100px;
+    vertical-align: top;
+}
+#email {
+    width: 230px;
+}
+footer h3 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 2em;
+    background-color: #27ae61;
+    line-height: 2em;
+    text-transform: uppercase;
+}
 @media screen and (max-width: 1000px){
   nav, footer, article {
-    width: 300px;
+    width: 200px;
     margin: 0 auto;
     font-family: 'News Cycle', sans-serif;
     text-align: center;
